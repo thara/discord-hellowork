@@ -35,11 +35,11 @@ class HelloWorkView(discord.ui.View):
 
         if role_removed:
             await interaction.response.send_message(
-                f"🎊 {member.name} が 有職 になりました 🎊", ephemeral=True
+                f"🎊 {member.name} が 有職 になりました 🎊"
             )
         else:
             await interaction.response.send_message(
-                f"{member.name} は すでに 有職 です 🐝", ephemeral=True
+                f"{member.name} は すでに 有職 です 🐝"
             )
 
 
